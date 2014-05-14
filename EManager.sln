@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EManager.Domain", "ClassLibrary1\EManager.Domain.csproj", "{DE650096-197D-4733-BFFB-8278F4695296}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EManager.web", "EManager.web\EManager.web.csproj", "{B4C96777-1243-48F2-87E7-F95DEABCA253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EManager.Domain", "EManager.Domain\EManager.Domain.csproj", "{77B623D8-65AD-4408-BB4E-6C6CC4276916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE650096-197D-4733-BFFB-8278F4695296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE650096-197D-4733-BFFB-8278F4695296}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE650096-197D-4733-BFFB-8278F4695296}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE650096-197D-4733-BFFB-8278F4695296}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4C96777-1243-48F2-87E7-F95DEABCA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4C96777-1243-48F2-87E7-F95DEABCA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C96777-1243-48F2-87E7-F95DEABCA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C96777-1243-48F2-87E7-F95DEABCA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B623D8-65AD-4408-BB4E-6C6CC4276916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B623D8-65AD-4408-BB4E-6C6CC4276916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B623D8-65AD-4408-BB4E-6C6CC4276916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B623D8-65AD-4408-BB4E-6C6CC4276916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
