@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1 {
-    public class Employee {
+namespace EManager.Domain
+{
+    public class Employee
+    {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } 
     }
 }

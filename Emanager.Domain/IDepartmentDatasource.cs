@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1 {
-    public interface IDepartmentDatasource {
-        public virtual IQueryable<Employee> Employees { get; }
-        public virtual string Name { get; }
-
+namespace EManager.Domain 
+{
+    /// <summary>
+    /// Interface type for an infrastructure, to implement more testable code. 
+    /// </summary>
+    public interface IDepartmentDatasource 
+    {
+        IQueryable<Employee> Employees { get; }
+        IQueryable<Department> Departments { get; }
     }
 }
